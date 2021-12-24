@@ -41,11 +41,16 @@ namespace TextBasedDemo
             }
             if (!alive)
             {
+                enemyTimer.stop();
                 deltaTime = 0;
                 b.update(deltaTime);
                 if (b.isClicked)
                 {
                     isRunning = false;
+                }
+                for (int q = entities.Count-1; q >= 0; q--)
+                {
+                    entities.RemoveAt(q);
                 }
             }
             tlives.setText("Lives: " + p.lives);
@@ -67,12 +72,12 @@ namespace TextBasedDemo
                     var enemr = new Rectangle((int)entities[i].pos.getX(), (int)entities[i].pos.getY(), 32, 32);
                     if (CheckCollisionRecs(enemr, new Rectangle((int)p.pos.getX(), (int)p.pos.getY(), 32, 32)))
                     {
-                        entities.RemoveAt(i);
+                        removeEnemy(i);
                         p.lives--;
                     }
                     if (entities[i].pos.getY() >= 480)
                     {
-                        entities.RemoveAt(i);
+                        removeEnemy(i);
                     }
                 }
             }
@@ -88,6 +93,18 @@ namespace TextBasedDemo
             for (int i = 0; i < entities.Count; i++)
             {
                 entities[i].draw();
+            }
+        }
+
+        void removeEnemy(int index)
+        {
+            if (entities[index] is Enemy)
+            {
+                entities.RemoveAt(index);
+                if (enemyTimer.waitTime >= 0.1f)
+                {
+                    enemyTimer.waitTime -= 0.001f;
+                }
             }
         }
     }
