@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Raylib C# Projects\\TextBasedDemo\\TextBasedDemo.csproj": {}
+    "E:\\Raylib C# Projects\\TextBasedDemo\\FallingCubesSharp\\TextBasedDemo.csproj": {}
   },
   "projects": {
-    "E:\\Raylib C# Projects\\TextBasedDemo\\TextBasedDemo.csproj": {
+    "E:\\Raylib C# Projects\\TextBasedDemo\\FallingCubesSharp\\TextBasedDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Raylib C# Projects\\TextBasedDemo\\TextBasedDemo.csproj",
+        "projectUniqueName": "E:\\Raylib C# Projects\\TextBasedDemo\\FallingCubesSharp\\TextBasedDemo.csproj",
         "projectName": "TextBasedDemo",
-        "projectPath": "E:\\Raylib C# Projects\\TextBasedDemo\\TextBasedDemo.csproj",
+        "projectPath": "E:\\Raylib C# Projects\\TextBasedDemo\\FallingCubesSharp\\TextBasedDemo.csproj",
         "packagesPath": "C:\\Users\\Kfearful\\.nuget\\packages\\",
-        "outputPath": "E:\\Raylib C# Projects\\TextBasedDemo\\obj\\",
+        "outputPath": "E:\\Raylib C# Projects\\TextBasedDemo\\FallingCubesSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

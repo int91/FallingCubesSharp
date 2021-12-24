@@ -18,7 +18,7 @@ namespace TextBasedDemo
             mgs.init();
             float deltaTime = GetFrameTime();
             
-            while (mgs.isRunning)
+            while (mgs.isRunning && !WindowShouldClose())
             {
                 deltaTime = GetFrameTime();
                 mgs.update(deltaTime);
