@@ -1,0 +1,10 @@
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\TextBasedDemo.exe
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\TextBasedDemo.dll
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\TextBasedDemo.deps.json
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\TextBasedDemo.runtimeconfig.json
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\TextBasedDemo.pdb
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\Raylib-cs.dll
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\runtimes\linux-x64\native\libraylib.so
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\runtimes\osx-x64\native\libraylib.dylib
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\runtimes\win-x64\native\raylib.dll
+E:\Raylib C# Projects\TextBasedDemo\bin\Release\net5.0\publish\runtimes\win-x86\native\raylib.dll
