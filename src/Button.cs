@@ -14,13 +14,16 @@ namespace TextBasedDemo
         private Color color;
         private bool isHovering = false;
         public bool isClicked = false;
+        Text t;
         public Button(int x, int y, int width, int height)
         {
             this.rect = new Rectangle(x, y, width, height);
+            t = new Text(x + ((width/2)-20), y + (height/2)-10, "Quit", WHITE);
         }
 
         public void update(float deltaTime)
         {
+            t.update(deltaTime);
             isHovering = false;
             isClicked = false;
             color = BLUE;
@@ -42,6 +45,7 @@ namespace TextBasedDemo
         public void draw()
         {
             DrawRectangleRec(rect, color);
+            t.draw();
         }
     }
 }
